@@ -16,5 +16,6 @@ export default {
   height: 1080px;
   overflow: hidden;
   background-color: beige;
+  position: relative;
 }
 </style>
