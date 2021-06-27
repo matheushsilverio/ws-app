@@ -15,6 +15,7 @@ Vue.use(
 );
 
 import MainFrame from "@/components/MainFrame";
+import vuetify from './plugins/vuetify'
 Vue.component("MainFrame", MainFrame);
 
 Vue.config.productionTip = false;
@@ -22,5 +23,6 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   store,
+  vuetify,
   render: h => h(App)
 }).$mount("#app");
